@@ -22,5 +22,4 @@ else:
 
     password = f"{'-'.join(capitalized_words)}{random_special}{random_number}"
 
-    print("Your XKCD-style password is:")
     print(password)
