@@ -26,11 +26,11 @@ Why It Works:
 - Random word selection ensures high entropy (unpredictability).
 
 Password Complexity in This Script:
-- Wordlist: Custom list (assuming ~10,000 words, adjust based on your file), filtered to 5+ letters.
-- Scheme: 5 random words, first letter capitalized, joined with '-', plus 1 special char (32 options)
+- Wordlist: Custom list (assuming 7,776 words, adjust based on your file), filtered to 5+ letters.
+- Scheme: 5 random words, first letter capitalized, joined with '-', plus 1 special char (26 options)
   and 1 digit (10 options).
-- Total combinations: ~10,000^5 * 32 * 10 = 3.2 × 10^22 (32 sextillion, varies with wordlist size).
-- Cracking time (offline, 100 billion guesses/sec): ~3.2 × 10^11 seconds = ~10,141 years.
+- Total combinations: 7,776^5 * 26 * 10 = 7.389 * 10^21 (7.389 sextillion).
+- Cracking time (offline, 100 billion guesses/sec): ~7.389 × 10¹⁰ seconds = ~2,342 years.
 - Strength: Extremely strong for online attacks (rate-limited) and robust against offline cracking
   with modern hashing (e.g., bcrypt). Main risks are reuse or phishing, not brute force.
 """
