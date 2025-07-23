@@ -1,6 +1,6 @@
 # XKCD Password Generator
 
-This repository contains a Python script (`main.py`) and a wordlist (`words.txt`) to generate XKCD-style passwords—strong, memorable passphrases inspired by [XKCD #936](https://xkcd.com/936/). The script creates passwords like `Lumber-Umbrella-Cactus-Abacus-Secret#3` using random words from the provided list.
+This repository contains a Python script (`main.py`) and a wordlist (`words.txt`) to generate XKCD-style passwords—strong, memorable passphrases inspired by [XKCD #936](https://xkcd.com/936/) and a [Privacy Guides article](https://www.privacyguides.org/en/basics/passwords-overview/) on password generation. The script creates passwords like `Lumber-Umbrella-Cactus-Abacus-Secret#3` using random words from the provided list.
 
 > [!WARNING]
 > The default words.txt uses the EFF's long wordlist (7,776 words), which is sufficient for robust password generation. For enhanced security, use a custom, private words.txt that attackers cannot access, making brute-force attacks significantly harder.
